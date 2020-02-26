@@ -98,6 +98,7 @@ public class Main {
 
         // Envio de respuesta del servidor web HTTP             
         out.write(msg.getBytes());
+        
 
         /*
          * Lectura de todas las lineas de la cabecera del servidor al que nos conectamos
@@ -158,7 +159,6 @@ public class Main {
         } catch (BadPaddingException ex) {
             Logger.getLogger(Main.class.getName()).log(Level.SEVERE, null, ex);
         }
-       
        
     }
 }

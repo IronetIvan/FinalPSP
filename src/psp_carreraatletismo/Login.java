@@ -1,4 +1,4 @@
-package login;
+package psp_carreraatletismo;
 
 
 import authentication.Authentication;
@@ -141,4 +141,5 @@ public class Login extends javax.swing.JFrame {
     private javax.swing.JPasswordField password;
     private javax.swing.JButton register;
     private javax.swing.JTextField username;
+    
 }
